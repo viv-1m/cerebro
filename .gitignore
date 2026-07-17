@@ -18,6 +18,8 @@ target/
 *.iws
 *.iml
 *.ipr
+out/
+/out/
 
 ### NetBeans ###
 /nbproject/private/
@@ -26,9 +28,32 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-**/src/main/static/
+**/src/main/resources/static/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+### VS Code & Cursor ###
 .vscode/
+.cursor/
+.cursorrules
+.claude/
+*.code-workspace
+
+### Core Java & Spring Boot ###
+*.class
+*.log
+*.gz
+*.tmp
+*.bak
+hs_err_pid*
+replay_pid*
+
+# Package Files (Optional - uncomment if you do not want to commit compiled archives)
+# *.jar
+# *.war
+# *.ear
+
+# Spring Boot & System tools
+log/
+logs/
+.gradle/
